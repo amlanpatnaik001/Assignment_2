@@ -28,7 +28,7 @@ body{
 
 } 
 
-.nav_bar{
+.nav-bar{
     display: flex;
     justify-content: space-between;
     gap: 30px;
@@ -40,29 +40,36 @@ body{
       align-items: center;  
 }
 
-.left_div{
+.left-div{
     margin-left:30% ;
     width: 560px;
 }
 
-.right_div img{
+.right-div img{
     width: 560px;
 }
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+}
 
-.left_div h1{
+.left-div h1{
     font-size: 50px;
 }
 
-.left_div span{
+.left-div span{
     color: blueviolet;
 }
-.left_div p {
+.left-div p {
     margin-top: 20px;
     font-size: 20px;
     display: inline-block;
 }
 
-.left_div button{
+.left-div button{
     font-size: 25;
      margin-top: 25px;
     padding: 12px 25px;
