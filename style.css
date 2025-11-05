@@ -13,59 +13,44 @@ body{
     justify-content: space-evenly;
     align-items: center;
     padding: 22px;
-    
-    
-}
-
 
 .logo {
-    font-size: 35px;;
+    font-size: 40px;;
     font-weight: 500;
 }
-
 .user{
     font-size: 19px;
     padding: 12px 25px;
     background-color: blue;
     color: white;
     border-radius: 10px;
-}
+}    
 
+} 
 
 .nav_bar{
     display: flex;
-    flex-direction: row ;
     justify-content: space-between;
-    gap: 20px;
-    font-size: 19px;
-
+    gap: 30px;
 }
 
-
-
-.hero {
-
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
-   place-items: center;
-
+.hero{
+      display: grid;
+      grid-template-columns: repeat(2 , 1fr);
+      align-items: center;  
 }
 
 .left_div{
-    margin-left: 30%;
-    width: 60%;
+    margin-left:30% ;
+    width: 560px;
 }
-
 
 .right_div img{
     width: 560px;
 }
 
-
 .left_div h1{
     font-size: 50px;
-    font-weight: 700;
-
 }
 
 .left_div span{
